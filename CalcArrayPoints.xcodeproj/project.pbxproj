@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		406FAACC1E95E516008632B0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D79DCE31E95993B001373A6 /* main.swift */; };
-		406FAAD21E95E5E7008632B0 /* CalcArrayPointsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FAAD11E95E5E7008632B0 /* CalcArrayPointsUnitTests.swift */; };
+		406FAAD41E95F900008632B0 /* CalcArrayPointsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FAAD31E95F900008632B0 /* CalcArrayPointsUnitTests.swift */; };
 		9D79DCE41E95993B001373A6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D79DCE31E95993B001373A6 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		406FAAC01E95D55E008632B0 /* CalcArrayPointsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcArrayPointsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		406FAAC41E95D55E008632B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		406FAAD11E95E5E7008632B0 /* CalcArrayPointsUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcArrayPointsUnitTests.swift; sourceTree = "<group>"; };
+		406FAAD31E95F900008632B0 /* CalcArrayPointsUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcArrayPointsUnitTests.swift; sourceTree = "<group>"; };
 		9D79DCE01E95993B001373A6 /* CalcArrayPoints */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CalcArrayPoints; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D79DCE31E95993B001373A6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +53,7 @@
 		406FAAC11E95D55E008632B0 /* CalcArrayPointsTests */ = {
 			isa = PBXGroup;
 			children = (
-				406FAAD11E95E5E7008632B0 /* CalcArrayPointsUnitTests.swift */,
+				406FAAD31E95F900008632B0 /* CalcArrayPointsUnitTests.swift */,
 				406FAAC41E95D55E008632B0 /* Info.plist */,
 			);
 			path = CalcArrayPointsTests;
@@ -176,7 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				406FAACC1E95E516008632B0 /* main.swift in Sources */,
-				406FAAD21E95E5E7008632B0 /* CalcArrayPointsUnitTests.swift in Sources */,
+				406FAAD41E95F900008632B0 /* CalcArrayPointsUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -46,11 +46,11 @@ func reduce(array: [Int], operation: ([Int]) -> Int) -> Int{
     return operation(array)
 }
 
-func add(x: (Int, Int), y: (Int, Int)) -> (xy0: Int, xy1: Int){
-    return ((x.0 + y.0), (x.1 + y.1))
+func add(p1: (Int, Int), p2: (Int, Int)) -> (x: Int, y: Int){
+    return ((p1.0 + p2.0), (p1.1 + p2.1))
 }
-func subtract(x: (Int, Int), y: (Int, Int)) -> (xy0: Int, xy1: Int){
-    return ((x.0 - y.0), (x.1 - y.1))
+func subtract(p1: (Int, Int), p2: (Int, Int)) -> (x: Int, y: Int){
+    return ((p1.0 - p2.0), (p1.1 - p2.1))
 }
 
 func add( p1: [String: Int]?, p2: [String: Int]?) -> [String: Int]? {
