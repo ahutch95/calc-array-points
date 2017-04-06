@@ -57,6 +57,8 @@ func add( p1: [String: Int]?, p2: [String: Int]?) -> [String: Int]? {
     var points = [String:Int]()
     var a = p1
     var b = p2
+    if a == nil {a = ["x":0, "y":0]}
+    if b == nil {b = ["x":0, "y":0]}
     if a?["x"] == nil {a?["x"] = 0}
     if a?["y"] == nil {a?["y"] = 0}
     if b?["x"] == nil {b?["x"] = 0}
@@ -69,6 +71,8 @@ func subtract( p1: [String: Int]?, p2: [String: Int]?) -> [String: Int]? {
     var points = [String:Int]()
     var a = p1
     var b = p2
+    if a == nil {a = ["x":0, "y":0]}
+    if b == nil {b = ["x":0, "y":0]}
     if a?["x"] == nil {a?["x"] = 0}
     if a?["y"] == nil {a?["y"] = 0}
     if b?["x"] == nil {b?["x"] = 0}
@@ -81,6 +85,8 @@ func add( p1: [String: Double]?, p2: [String: Double]?) -> [String: Double]? {
     var points = [String:Double]()
     var a = p1
     var b = p2
+    if a == nil {a = ["x":0, "y":0]}
+    if b == nil {b = ["x":0, "y":0]}
     if a?["x"] == nil {a?["x"] = 0}
     if a?["y"] == nil {a?["y"] = 0}
     if b?["x"] == nil {b?["x"] = 0}
@@ -88,16 +94,13 @@ func add( p1: [String: Double]?, p2: [String: Double]?) -> [String: Double]? {
     points["x"] = ((a?["x"])! + (b?["x"])!)
     points["y"] = ((a?["y"])! + (b?["y"])!)
     return points
-    
 }
-
-
-
-
 func subtract( p1: [String: Double]?, p2: [String: Double]?) -> [String: Double]? {
     var points = [String:Double]()
     var a = p1
     var b = p2
+    if a == nil {a = ["x":0, "y":0]}
+    if b == nil {b = ["x":0, "y":0]}
     if a?["x"] == nil {a?["x"] = 0}
     if a?["y"] == nil {a?["y"] = 0}
     if b?["x"] == nil {b?["x"] = 0}
